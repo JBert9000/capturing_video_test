@@ -11,9 +11,9 @@ while True:
     print(check)
     print(frame)
 
-    gray=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+    # gray=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
     # time.sleep(3)
-    cv2.imshow("Capture1",gray)
+    cv2.imshow("Capture1",frame)
 
     key=cv2.waitKey(1)
 
